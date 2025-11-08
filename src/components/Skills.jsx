@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaNodeJs ,FaPython,FaJava,FaReact,FaDocker,FaAws} from 'react-icons/fa';
+import { FaNodeJs ,FaPython,FaJava,FaReact,FaDocker,FaAws,FaPhp ,FaLaravel,FaVuejs  } from 'react-icons/fa';
 import { BiLogoPostgresql,BiLogoMongodb  } from "react-icons/bi";
 import { SiExpress ,SiTypescript,SiJavascript,SiTailwindcss,SiNextdotjs,SiHtml5,SiVite,SiGithubactions,SiDjango,SiSpring} from "react-icons/si";
 const Skills = () => {
@@ -15,10 +15,13 @@ const Skills = () => {
             { name: 'Java',  icon: <FaJava className='text-white'/> },
             { name: 'PostgreSQL', icon: <BiLogoPostgresql className='text-blue-300'/> },
             { name: 'MongoDB',  icon: <BiLogoMongodb className='text-green-400'/> },
-            { name: 'Express.js',  icon: <SiExpress className='text-white'/> }
+            { name: 'Express.js',  icon: <SiExpress className='text-white'/> },
+            { name: 'PHP',  icon: <FaPhp className='text-blue-300'/> },
+            { name: 'Laravel',  icon: <FaLaravel className='text-red-400'/> },
         ],
         frontend: [
             { name: 'React',  icon: <FaReact className='text-blue-400'/> },
+            { name: 'Vue.js',  icon: <FaVuejs  className='text-green-600'/> },
             { name: 'TypeScript',  icon: <SiTypescript className='text-blue-600'/> },
             { name: 'JavaScript',  icon: <SiJavascript className='text-yellow-300'/> },
             { name: 'Tailwind CSS',  icon: <SiTailwindcss className='text-blue-400'/> },
