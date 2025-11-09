@@ -75,7 +75,7 @@ const Projects = () => {
     };
 
     const categories = [
-        { id: 'all', label: 'Todos', count: projectsData.all.length },
+        { id: 'all', label: 'All', count: projectsData.all.length },
         { id: 'fullstack', label: 'Full Stack', count: projectsData.fullstack.length },
         { id: 'frontend', label: 'Frontend', count: projectsData.frontend.length },
         { id: 'backend', label: 'Backend', count: projectsData.backend.length },
@@ -123,9 +123,9 @@ const Projects = () => {
                         className={`group bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-700 hover:border-blue-500/50 transform hover:-translate-y-2 ${project.featured ? 'ring-2 ring-blue-500' : ''
                             }`}
                         style={{
-                            width: 'calc(33.333% - 22px)', // 3 columnas con gap
-                            minWidth: '320px', // Ancho mínimo para responsividad
-                            flex: '0 0 auto' // Permite que los elementos no crezcan
+                            width: 'calc(33.333% - 22px)', 
+                            minWidth: '320px', 
+                            flex: '0 0 auto' 
                         }}
                     >
                         {/* Project Image */}
