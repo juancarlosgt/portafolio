@@ -13,7 +13,7 @@ const Projects = () => {
                 technologies: ["PHP", "laravel", "Vue.js", "Tailwind CSS"],
                 category: "fullstack",
                 github: "https://github.com/juancarlosgt/panda-task",
-                demo: "https://panda-task.vercel.app/",
+                demo: "https://pandatask.juankrlos.dev/",
                 featured: true
             }, {
                 id: 2,
@@ -36,7 +36,7 @@ const Projects = () => {
             technologies: ["PHP", "laravel", "Vue.js", "Tailwind CSS"],
             category: "fullstack",
             github: "https://github.com/juancarlosgt/panda-task",
-            demo: "https://panda-task.vercel.app/",
+            demo: "https://pandatask.juankrlos.dev/",
             featured: true
         }],
         frontend: [{
@@ -47,7 +47,7 @@ const Projects = () => {
             technologies: ["Vue.js", "Tailwind CSS"],
             category: "frontend",
             github: "https://github.com/juancarlosgt/panda-task",
-            demo: "https://panda-task.vercel.app/",
+            demo: "https://pandatask.juankrlos.dev/",
             featured: true
         }],
         backend: [{
@@ -58,7 +58,7 @@ const Projects = () => {
             technologies: ["PHP", "laravel", "Jwt"],
             category: "backend",
             github: "https://github.com/juancarlosgt/task-manager",
-            demo: "https://panda-task.vercel.app/",
+            demo: "https://pandatask.juankrlos.dev/",
             featured: true
         }],
         mobile: [{
