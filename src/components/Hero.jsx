@@ -9,12 +9,12 @@ const Hero = () => {
             </div>
 
             <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
-                {/* Avatar o imagen */}
+                {/* Imagen */}
                 <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
                     <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
                         {/* <span className="text-2xl font-bold text-white">JG</span> */}
                         <img
-                            src="https://i.ibb.co/qMTVGj9X/91266135.jpg"
+                            src="https://i.ibb.co/mLKSzjK/image.jpg"
                             alt="Juan Carlos Gonzalez"
                             className="w-28 h-28 rounded-full object-cover"
                         />
