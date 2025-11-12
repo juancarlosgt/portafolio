@@ -27,7 +27,7 @@ const Projects = () => {
                 progress: true
             },
             , {
-                id: 2,
+                id: 3,
                 title: "E-Commerce API",
                 description: "Restful API for an e-commerce platform, providing endpoints for product management, user authentication, and shopping cart functionality.",
                 image: "https://i.ibb.co/rfRzCkbG/Captura-de-pantalla-2025-11-12-181346.png",
@@ -70,7 +70,17 @@ const Projects = () => {
             github: "https://github.com/juancarlosgt/task-manager",
             demo: "https://pandatask.juankrlos.dev/",
             featured: true
-        }],
+        }, {
+                id: 2,
+                title: "E-Commerce API",
+                description: "Restful API for an e-commerce platform, providing endpoints for product management, user authentication, and shopping cart functionality.",
+                image: "https://i.ibb.co/rfRzCkbG/Captura-de-pantalla-2025-11-12-181346.png",
+                technologies: ["Node JS", "Express js", "JWT", "MySQL"],
+                category: "backend",
+                github: "https://github.com/juancarlosgt/API-KOI",
+                demo: "https://github.com/juancarlosgt/API-KOI",                
+            }
+        ],
         mobile: [{
             id: 1,
             title: "Emisora UFPS",
