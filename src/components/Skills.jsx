@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaNodeJs ,FaPython,FaJava,FaReact,FaDocker,FaAws,FaPhp ,FaLaravel,FaVuejs  } from 'react-icons/fa';
 import { BiLogoPostgresql,BiLogoMongodb  } from "react-icons/bi";
-import { SiExpress ,SiTypescript,SiJavascript,SiTailwindcss,SiNextdotjs,SiHtml5,SiVite,SiGithubactions,SiDjango,SiSpring} from "react-icons/si";
+import { SiExpress ,SiTypescript,SiJavascript,SiTailwindcss,SiNextdotjs,SiHtml5,SiVite,SiGithubactions,SiDjango,SiSpring,SiMysql } from "react-icons/si";
 const Skills = () => {
     const [activeTab, setActiveTab] = useState('backend');
 
@@ -13,6 +13,7 @@ const Skills = () => {
             { name: 'Python',  icon:<FaPython className='text-yellow-300'/> },
             { name: 'Spring',  icon:<SiSpring className='text-green-400'/> },
             { name: 'Java',  icon: <FaJava className='text-white'/> },
+            { name: 'MySQL', icon: <SiMysql className='text-orange-300'/> },
             { name: 'PostgreSQL', icon: <BiLogoPostgresql className='text-blue-300'/> },
             { name: 'MongoDB',  icon: <BiLogoMongodb className='text-green-400'/> },
             { name: 'Express.js',  icon: <SiExpress className='text-white'/> },
